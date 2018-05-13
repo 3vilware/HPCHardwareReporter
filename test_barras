@@ -1,0 +1,15 @@
+set terminal jpeg                       #Formato de salida
+set title "Actividad por cada Nodo"     #Titulo
+set xlabel "Nodo"                      #Etiqueta eje x
+set ylabel "Porcentaje de CPU"          #Etiqueta eje y
+set xrange [1:16]		        #Rango eje x
+set yrange [0:100]                      #Rango eje y
+set boxwidth 0.9 #absolute
+#set style data histogram
+#set style histogram cluster gap 2
+set style fill solid border 0.85
+#Dibujo de la gráfica
+plot "media_cluster.txt" every 1 using 2 with boxes ls 1  title "Actividad por Nodo"
+
+
+#Hacer un contador con 16 nodos y 16 datos y aux

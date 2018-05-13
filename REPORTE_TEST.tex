@@ -1,0 +1,59 @@
+\documentclass[11pt,a4paper,oneside,openany]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[danish]{babel}
+\usepackage{graphicx}
+\graphicspath{{Figures/}}
+\usepackage{fullpage}
+\usepackage{mathtools}
+\usepackage{verbatim} % añadir este paquete para tener la salida correcta del txt
+\usepackage{wallpaper}%para imagen de fondo
+
+
+\author{Ricardo}
+\title{\LARGE Reporte Prueba \textsc{Red}}
+\date{\today}
+\ThisCenterWallPaper{1.45}{beige.jpg}%Add background image only on this page
+\ThisULCornerWallPaper{0.7}{barra3.jpg}
+\ThisURCornerWallPaper{0.305}{agave.jpg}
+
+
+    \begin{document}
+    %\maketitle
+ \begin{titlepage}
+	\centering
+	{\scshape\tiny . \par}
+	\vspace{5cm}
+	{\huge\bf Clúster Agave \par}
+	\vspace{1cm}
+	\includegraphics[width=0.7\textwidth]{udg.png}\par
+	%{\scshape\Large Universidad de Guadalajara \par}
+	\vspace{2.7cm}
+	{\Huge\bfseries Reporte de estado \par}
+	\vspace{2cm}
+	{\huge \today \par}
+	\vfill
+	supervisado por\par
+	Dr.Alejandro Morales
+	\vfill
+	{\Large\itshape version 1.0\par}
+	
+
+	
+\end{titlepage}
+
+	%\verbatiminput{hola.txt}% con esta instruccion invocamos el archivo al nuestro doc.
+	{\Large Ultimos usuarios activos \paragraph{•}}    
+	\vspace{2cm}
+	\verbatiminput{last.txt}
+	\vspace{2cm}
+	{\large \bf hora | tiempo en marcha  | usuarios activos |  carga del sistema \par}
+	\verbatiminput{uptime.txt}
+	\vspace{2cm}
+	{\Large \bf Estatus de memoria RAM (megabytes) \par}
+	\verbatiminput{free.txt}
+	{\large \bf Disco duro \paragraph{•}}
+	{\verbatiminput{df.txt}
+	
+    
+    \end{document}

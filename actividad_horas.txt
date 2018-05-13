@@ -1,0 +1,11 @@
+USUARIO           HORAS
+victorM	-----	530.97
+carmenS	-----	8.32
+admin1	-----	267.07
+gururaj	-----	26.62
+joseV	-----	6.49
+admin2	-----	84.71
+bernaZ	-----	13.18
+admin4	-----	166.40
+root	-----	70.22
+total	-----	1174.03

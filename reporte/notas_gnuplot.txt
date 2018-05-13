@@ -1,0 +1,14 @@
+#eso exporta la grafica en una imagen
+usar: 
+'comandos donde genero mi grafica'
+set term png
+set output 'nombre.png' 
+replot
+
+#Correr un script de gnuplot 
+call 'name_script-gp' 'myplot'
+
+#cambiar nombre de etiquera de la X's e Y's
+plot sin(x) //any graph
+ser xlabel "Name_labelx"
+set ylabel "Name_labely"

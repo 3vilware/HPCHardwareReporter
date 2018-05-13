@@ -1,0 +1,14 @@
+set terminal jpeg                       #Formato de salida
+set title "Nodo 1"                      #Titulo
+set xlabel "Horas"                      #Etiqueta eje x
+set ylabel "Porcentaje de CPU"          #Etiqueta eje y
+set xrange [0:25]		        #Rango eje x
+set yrange [0:100]                      #Rango eje y
+set boxwidth 0.9 absolute
+set style data histogram
+set style histogram cluster gap 2
+set style fill solid border 0.85
+#Dibujo de la gráfica (columnas 1 y 2) tipo de línea 4 y ancho de línea 3:
+plot 'datos.txt' using 1  title "Actividad" #with linespoints linetype 2 linewidth 2 title "Actividad"
+
+#Hacer un comtador con 16 nodos y 16 datos y aux

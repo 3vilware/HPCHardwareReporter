@@ -1,0 +1,32 @@
+Tiempo de actividad de cada Nodo desde su ultimo apagado
+Nodo 1
+Activo 26 dias.
+Nodo 2
+Activo 23 dias.
+Nodo 3
+Activo 26 dias.
+Nodo 4
+Activo 26 dias.
+Nodo 5
+Activo 26 dias.
+Nodo 6
+Activo 26 dias.
+Nodo 7
+Activo 26 dias.
+Nodo 8
+Activo 26 dias.
+Nodo 9
+Activo 26 dias.
+Nodo 10 Apagado.
+Nodo 11
+Activo 20 dias.
+Nodo 12
+Activo 18 dias.
+Nodo 13
+Activo 19 dias.
+Nodo 14
+Activo 19 dias.
+Nodo 15
+Activo 19 dias.
+Nodo 16
+Activo 19 dias.

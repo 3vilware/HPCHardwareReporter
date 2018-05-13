@@ -1,0 +1,20 @@
+set terminal jpeg                       #Formato de salida
+set title "Nodo 14"                      #Titulo
+set xlabel "Horas"                      #Etiqueta eje x
+set ylabel "Porcentaje de CPU"          #Etiqueta eje y
+#set style line 1 linecolor rgb "red"    #linewidth 5.000 
+set xrange [0:60]		        #Rango eje x
+set yrange [0:100]                      #Rango eje y
+set style data lines
+#set style fill transparent solid 0.3 noborder
+#set style data linespoints		#Rellenar bajo linea
+
+#Dibujo de la gráfica (columnas 1 y 2) tipo de línea 4 y ancho de línea 3:
+
+plot 'datos14.txt' using 1:2 with line lt 8 lw 4 title 'Actividad' #para que no imprima puntos.
+
+#plot 'datos2.txt' u 1:2 w filledcu, '' with line lt 5 lw -1 title 'Actividad' 
+
+#with linespoints linetype 2 linewidth 2 title "Actividad"
+
+#Hacer un comtador con 16 nodos y 16 datos y aux

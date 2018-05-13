@@ -1,0 +1,25 @@
+#!/bin/bash
+num_datos=1440
+num_nodos=16
+i=1
+for i in {1..16..1}; do
+
+	ping -c 1 node$i > /dev/null
+	if [ $? -eq 0 ]; then
+		cluster_exec -n node[$i] sar -u 60 $num_datos | awk '{print $5}'| sed '1,3 d' | sed -n '1,1440 p' > aux$i.txt &
+	else
+		continue  #echo Nodo $i Apagado.
+	fi
+done
+
+wait
+ 
+j=1
+
+for j in {1..16..1}; do
+	
+	cat -n aux$j.txt > datos$j.txt 
+	tail -1 aux$j > media$j.txt
+	cat test$j | gnuplot > grafico$j.jpg
+
+done

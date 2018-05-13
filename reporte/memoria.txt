@@ -1,0 +1,32 @@
+Estatus de la memoria RAM por nodo
+Nodo 1
+Total = 32076MB	Usada = 554MB
+Nodo 2
+Total = 32076MB	Usada = 2222MB
+Nodo 3
+Total = 28037MB	Usada = 403MB
+Nodo 4
+Total = 32076MB	Usada = 504MB
+Nodo 5
+Total = 32076MB	Usada = 872MB
+Nodo 6
+Total = 32076MB	Usada = 883MB
+Nodo 7
+Total = 32076MB	Usada = 1782MB
+Nodo 8
+Total = 32076MB	Usada = 1786MB
+Nodo 9
+Total = 32076MB	Usada = 1867MB
+Nodo 10 Apagado.
+Nodo 11
+Total = 32079MB	Usada = 13386MB
+Nodo 12
+Total = 32079MB	Usada = 3207MB
+Nodo 13
+Total = 3831MB	Usada = 192MB
+Nodo 14
+Total = 3831MB	Usada = 189MB
+Nodo 15
+Total = 3831MB	Usada = 192MB
+Nodo 16
+Total = 3831MB	Usada = 233MB

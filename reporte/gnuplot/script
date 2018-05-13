@@ -1,0 +1,7 @@
+set terminal jpeg                     #Formato de salida
+set title "Grafica1"                  #Titulo
+set xlabel "Dia"                      #Etiqueta eje x
+set ylabel "Valor"                    #Etiqueta eje y
+set yrange [0:30]                     #Rango eje y
+#Dibujo de la gráfica (columnas 1 y 2) tipo de línea 4 y ancho de línea 3:
+plot 'datos.txt' using 1:2 with linespoints linetype 4 linewidth 3 title "Ventas"
